@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hmwrk9"
+version = "0.1.0"
+description = ""
+authors = ["jockerlol <jockerlol1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+redis = "^5.0.1"
+redis-lru = "^0.1.2"
+mongoengine = "^0.27.0"
+requests = "^2.31.0"
+bs4 = "^0.0.1"
+configparser = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
